@@ -1,0 +1,133 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "rWt6NtyP8kj7rYQxiQey3w",
+      "projectApiToken": "FgmoqlrpWWn0ZxJjCkKauFPl6ftnYmSmbqpcxkwtSdBQR1qIl4tzQKPXLMFnTnFBEYBGBB8Dn6ORi4vOcSQ",
+      "projectName": "Copy of create-plasmic-app",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_create_plasmic_app/plasmic.module.css",
+      "components": [
+        {
+          "id": "oc3Q8bbN-wHx",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "rWt6NtyP8kj7rYQxiQey3w",
+          "renderModuleFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "7__xWA-Zq2ft",
+          "name": "DynamicPage",
+          "type": "managed",
+          "projectId": "rWt6NtyP8kj7rYQxiQey3w",
+          "renderModuleFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicDynamicPage.tsx",
+          "importSpec": {
+            "modulePath": "DynamicPage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicDynamicPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/dynamic/[slug]"
+        },
+        {
+          "id": "pebvEhCM1kxQ",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "rWt6NtyP8kj7rYQxiQey3w",
+          "renderModuleFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "W-VH7VjUK2ud",
+          "name": "RandomDynamicPageButton",
+          "type": "managed",
+          "projectId": "rWt6NtyP8kj7rYQxiQey3w",
+          "renderModuleFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicRandomDynamicPageButton.tsx",
+          "importSpec": {
+            "modulePath": "RandomDynamicPageButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicRandomDynamicPageButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "QH2W2JX37E1Y",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/copy_of_create_plasmic_app/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "Q0IDqBnBb8v7",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_create_plasmic_app/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "8-kV8cPPUQ6A",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "912rv8ERI8U6",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "nW7-MUoLB64t",
+        "name": "Screen",
+        "projectId": "rWt6NtyP8kj7rYQxiQey3w",
+        "contextFilePath": "plasmic/copy_of_create_plasmic_app/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.338",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.338/dist/plasmic.schema.json"
+}
